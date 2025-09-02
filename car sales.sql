@@ -35,7 +35,7 @@ FROM car_sales AS c1
 --WHERE manufacturer = 'Ford' OR manufacturer = 'BMW'
 ORDER BY manufacturer, price ASC
 
---Shows price level based on the average price of all models
+--Shows price level relative to average price of all models
 
 SELECT 
     manufacturer, 
@@ -165,6 +165,7 @@ ORDER BY
 
 	
 	   
+
 
 
 
